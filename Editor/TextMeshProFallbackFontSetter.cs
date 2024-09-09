@@ -8,7 +8,7 @@ public class TextMeshProFallbackFontSetter
     static TMP_FontAsset DefaultFontAsset => AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(AssetDatabase.GUIDToAssetPath(DefaultFontAssetGUID));
     static TMP_FontAsset FallbackFontAsset => AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(AssetDatabase.GUIDToAssetPath(FallbackFontAssetGUID));
 
-    [MenuItem("Tools/TextMeshPro Fallback Font JPを設定")]
+    [MenuItem("Tools/TextMesh Pro VRC Fallback Font JPを設定")]
     static void SetFallbackFont()
     {
         var setting = TMP_Settings.instance;
@@ -19,7 +19,7 @@ public class TextMeshProFallbackFontSetter
         }
         if (DefaultFontAsset == null || FallbackFontAsset == null)
         {
-            EditorUtility.DisplayDialog("Error", "フォントアセットが見つかりません。\nTextMeshPro Fallback Font JPのインストールが壊れている可能性があるため、再インストールなどを試して下さい。", "OK");
+            EditorUtility.DisplayDialog("Error", "フォントアセットが見つかりません。\nTextMesh Pro VRC Fallback Font JPのインストールが壊れている可能性があるため、再インストールなどを試して下さい。", "OK");
             return;
         }
         var so = new SerializedObject(setting);

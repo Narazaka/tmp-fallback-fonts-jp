@@ -21,14 +21,14 @@ Fallback Fonts機能を使ってVRChatクライアント内蔵のNotoフォン�
 
 1. https://vpm.narazaka.net/ から「Add to VCC」ボタンを押してリポジトリをVCCにインストールします。
 2. VCCでSettings→Packages→Installed Repositoriesの一覧中で「Narazaka VPM Listing」にチェックが付いていることを確認します。
-3. アバタープロジェクトの「Manage Project」から「TextMesh Pro VRC Fallback Font JP」をインストールします。
+3. プロジェクトの「Manage Project」から「TextMesh Pro VRC Fallback Font JP」をインストールします。
 
 ## 使い方
 
 1. 前提として、「TMP Essentials」をインポートして下さい。
   - TextMesh Proを既に使用している場合、インポートされているはずです。
   - Edit→Project SettingsでProject Settingsを開き、TextMesh ProタブからTMP Essentialsをインポートできます。
-2. 「Tools→TextMeshPro Fallback Font JPを設定」を実行すると、デフォルトフォントが空のフォント「Empty SDF for Default Font」になり、フォールバックフォントが日本語文字セットのNoto Sans JPに設定されます。
+2. 「Tools→TextMesh Pro VRC Fallback Font JPを設定」を実行すると、デフォルトフォントが空のフォント「Empty SDF for Default Font」になり、フォールバックフォントが日本語文字セットのNoto Sans JPに設定されます。
   - 既に設定されていたフォントは手動で変更する必要があります。
   - この操作は、Project SettingsのTextMesh Pro→Settingsタブを開いて、Default Font Assetに「Empty SDF for Default Font」を、Fallback Font Assets Listに「NotoSansJP-Medium SDF for Fallback Font」を設定するのと同じです。
 
