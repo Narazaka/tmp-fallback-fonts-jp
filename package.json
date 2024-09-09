@@ -1,6 +1,6 @@
 {
   "name": "net.narazaka.vrchat.tmp-fallback-fonts-jp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "TextMesh Pro VRC Fallback Font JP",
   "description": "TextMesh ProでVRChatのワールド容量を増やさないためのフォールバックフォント 日本向け",
   "author": {
