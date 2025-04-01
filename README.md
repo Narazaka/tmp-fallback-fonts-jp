@@ -32,6 +32,14 @@ Fallback Fonts機能を使ってVRChatクライアント内蔵のNotoフォン�
   - 既に設定されていたフォントは手動で変更する必要があります。
   - この操作は、Project SettingsのTextMesh Pro→Settingsタブを開いて、Default Font Assetに「Empty SDF for Default Font」を、Fallback Font Assets Listに「NotoSansJP-Medium SDF for Fallback Font」を設定するのと同じです。
 
+## トラブルシューティング
+
+### `The character used for Underline is not available in font asset [Empty SDF for Default Font].` の警告が出る場合
+
+`Project Settings -> TextMesh Pro / Settings -> Dynamic Font System Settings` にある `Disable warnings` をオンにすると警告が消えます。
+
+元々がフォールバックフォントなので実際には問題ないと考えられます。
+
 ## 更新履歴
 
 - 1.0.0
