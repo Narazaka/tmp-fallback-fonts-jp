@@ -10,8 +10,5 @@
   "license": "OFL",
   "type": "tool",
   "unity": "2019.4",
-  "url" : "https://github.com/Narazaka/tmp-fallback-fonts-jp.git",
-  "vpmDependencies": {
-    "com.vrchat.worlds": ">=3.0.9"
-  }
+  "url" : "https://github.com/Narazaka/tmp-fallback-fonts-jp.git"
 }
